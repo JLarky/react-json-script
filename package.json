@@ -1,0 +1,20 @@
+{
+  "name": "@jlarky/react-json-script",
+  "module": "index.tsx",
+  "type": "module",
+  "scripts": {
+    "publish": "bunx jsr publish"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/react": "^18.3.1",
+    "@types/serialize-javascript": "^5.0.4",
+    "react": "^18.3.1",
+    "serialize-javascript": "^6.0.2"
+  }
+}
