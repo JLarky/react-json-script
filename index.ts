@@ -14,7 +14,17 @@ type JsonScriptProps = Omit<
  * Example:
  *
  * ```tsx
- * <JsonScript type="application/ld+json" json={{ "@context": "http://schema.org", "@type": "Organization", "url": "http://www.example.com", "name": "Unlimited Ball Bearings Corp." }} />
+ * import { JsonScript } from "@jlarky/react-json-script";
+ *
+ * <JsonScript
+ *   type="application/ld+json"
+ *   json={{
+ *     "@context": "http://schema.org",
+ *     "@type": "Organization",
+ *     "url": "http://www.example.com",
+ *     "name": "Unlimited Ball Bearings Corp.",
+ *   }}
+ * />
  * ```
  */
 export function JsonScript(props: JsonScriptProps): JSX.Element {
