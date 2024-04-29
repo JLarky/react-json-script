@@ -1,5 +1,5 @@
 {
   "name": "@jlarky/react-json-script",
-  "version": "0.1.0",
-  "exports": "./index.tsx"
+  "version": "0.1.1",
+  "exports": "./index.ts"
 }
